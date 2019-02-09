@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_layout"
+    android:layout_gravity="bottom"
+    android:background="@color/colorPrimary">
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/prev_Btn"
+        android:text="@string/prev_btn"
+        app:layout_constraintStart_toStartOf="@id/bottom_layout"
+        app:layout_constraintEnd_toStartOf="@id/home_btn"
+        app:layout_constraintTop_toTopOf="@id/bottom_layout"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_layout"/>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nxt_Btn"
+        android:text="@string/nxt_btn"
+        app:layout_constraintEnd_toEndOf="@id/bottom_layout"
+        app:layout_constraintStart_toEndOf="@id/home_btn"
+        app:layout_constraintTop_toTopOf="@id/bottom_layout"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_layout"/>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_btn"
+        android:text="@string/home_btn"
+        app:layout_constraintStart_toEndOf="@id/prev_Btn"
+        app:layout_constraintEnd_toStartOf="@id/nxt_Btn"
+        app:layout_constraintTop_toTopOf="@id/bottom_layout"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_layout"/>
+</android.support.constraint.ConstraintLayout>
