@@ -18,9 +18,11 @@ public class Details_Page extends AppCompatActivity {
         title=findViewById(R.id.title_details);
         kavithai=findViewById(R.id.kavithai_details);
 
-        if(getIntent().getExtras()!=null){
-            title_d=getIntent().getExtras().getString("title");
-            kavithai_d=getIntent().getExtras().getString("kavithai");
+        if (getIntent()!=null) {
+            if (getIntent().getExtras() != null) {
+                title_d = getIntent().getExtras().getString("title");
+                kavithai_d = getIntent().getExtras().getString("kavithai");
+            }
         }
 
         toolbar = findViewById(R.id.toolbar);
