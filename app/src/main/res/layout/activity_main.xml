@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vino.raven.kathalara.com.vino.raven.kaathalaara.MainActivity">
+    tools:context="com.vino.raven.kaathalaara.MainActivity">
     <include layout="@layout/toolbar_load"
         android:id="@+id/toolbar1"
         app:layout_constraintStart_toStartOf="parent"

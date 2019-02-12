@@ -8,7 +8,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.vino.raven.kaathalaara.MainActivity;
-import com.vino.raven.kathalara.R;
+import com.vino.raven.kaathalaara.R;
 
 public class SplashScreen extends AppCompatActivity {
 

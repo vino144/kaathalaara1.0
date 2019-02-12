@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.vino.raven.kathalara.R;
+import com.vino.raven.kaathalaara.R;
 
 
 public class About extends Fragment {

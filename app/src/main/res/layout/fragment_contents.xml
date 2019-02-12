@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vino.raven.kathalara.com.vino.raven.kaathalaara.fragment.Contents">
+    tools:context="com.vino.raven.kaathalaara.fragment.Contents">
 
     <ScrollView
         android:id="@+id/scrollView_content"

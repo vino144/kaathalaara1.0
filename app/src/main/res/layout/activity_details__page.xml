@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vino.raven.kathalara.com.vino.raven.kaathalaara.activities.Details_Page">
+    tools:context="com.vino.raven.kaathalaara.activities.Details_Page">
     <include layout="@layout/toolbar_load"
         android:id="@+id/toolbar_details"/>
 

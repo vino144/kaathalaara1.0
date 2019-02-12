@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 
 import com.vino.raven.kaathalaara.adapters.Adap_Contents;
 import com.vino.raven.kaathalaara.model.ContentTitles;
-import com.vino.raven.kathalara.R;
+import com.vino.raven.kaathalaara.R;
 
 import java.util.ArrayList;
 import java.util.List;

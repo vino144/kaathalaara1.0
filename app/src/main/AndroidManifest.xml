@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vino.raven.kathalara">
+    package="com.vino.raven.kaathalaara">
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -8,13 +8,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.vino.raven.com.vino.kathalara.activities.SplashScreen">
+        <activity android:name="com.vino.raven.kaathalaara.activities.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.vino.raven.com.vino.kathalara.MainActivity" />
-        <activity android:name="com.vino.raven.com.vino.kathalara.activities.Details_Page"/>
+        <activity android:name="com.vino.raven.kaathalaara.MainActivity" />
+        <activity android:name="com.vino.raven.kaathalaara.activities.Details_Page"/>
     </application>
 </manifest>

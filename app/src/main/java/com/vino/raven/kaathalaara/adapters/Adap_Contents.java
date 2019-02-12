@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.vino.raven.kathalara.R;
+import com.vino.raven.kaathalaara.R;
 import com.vino.raven.kaathalaara.activities.Details_Page;
 import com.vino.raven.kaathalaara.model.ContentTitles;
 

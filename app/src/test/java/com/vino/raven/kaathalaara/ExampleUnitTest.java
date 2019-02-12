@@ -1,4 +1,4 @@
-package com.vino.raven.kathalara;
+package com.vino.raven.kaathalaara;
 
 import org.junit.Test;
 

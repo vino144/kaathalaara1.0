@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.Toolbar;
 
-import com.vino.raven.kathalara.R;
+import com.vino.raven.kaathalaara.R;
 
 public class Details_Page extends AppCompatActivity {
     AppCompatTextView title,kavithai;

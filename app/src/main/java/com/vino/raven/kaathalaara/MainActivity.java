@@ -15,7 +15,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.vino.raven.kathalara.R;
 import com.vino.raven.kaathalaara.fragment.About;
 import com.vino.raven.kaathalaara.fragment.Contact;
 import com.vino.raven.kaathalaara.fragment.Contents;
